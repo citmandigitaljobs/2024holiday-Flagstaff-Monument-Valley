@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Akatab" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    body {
+      font-family: 'Akatab';
+      font-size: 22px;
+    }
+  </style>
+  <title>San Francisco</title>
+  <!--STYLE.CSS FILE LINK HERE -->
+  <link rel="stylesheet" href="./style.css" />
+  <!-- TRY JS FILE HERE BASED ON STACK OVERFLOW https://stackoverflow.com/questions/68424003/modal-box-opens-on-codepen-but-not-on-localhost -->
+  <!-- INCLUDE defer SO DIRECT BROWSER THAT THE SCRIPT IS MEANT TO BE EXECUTED AFTER THE DOCUMENT HAS BEEN PARSED-->
+  <script src="./main.js" defer></script>
+</head>
+
+<!--MAIN.JS FILE LINK HERE -->
+<!-- <script src="./main.js"></script> -->
+
+<!--   START TOP NAVIGATION BAR FOR DESKTOP -->
+<ul class="page-navigation">
+  <li><a href="#home">Go to home page</a></li>
+  <li><a href="#state">Back to Arizona</a></li>
+</ul>
+<!--   END TOP NAVIGATION BAR FOR DESKTOP -->
+
+<!--            PUT HAMBURGER MENU AT TOP  -->
+<div class="topnav" id="topMenu">
+  <!-- HAMBURGER MENU -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+    <!-- NAVIGATION LINKS -->
+    <nav id="myLinks">
+      <a href="#home">Go to home page</a>
+      <a href="#state">Back to Arizona</a>
+    </nav>
+  </a>
+</div>
+<!--    END HAMBURGER MENU    -->
+
+<body>
+
+  <main>
+    <section class="grid-content">
+      <div class="content">
+        <p>Monument Valley</p>
+        <!-- ----------------------- -->
+
+        <!--         START CAROUSEL -->
+        <!--         <section class="carousel">
+          <div class="arrows"> -->
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/Ygu8a4q.png" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/nYobI1y.png" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/piitQvt.jpeg" alt="Coconino National Forest">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/J51xX56.jpeg" alt="Coconino National Forest">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/XJjflB6.jpeg" alt="Coconino National Forest">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/iBMppgk.jpeg" alt="Coconino National Forest">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/OfMUd11.jpeg" alt="Road to Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/lLw0Wql.jpeg" alt="Road to Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/wTSbiI6.jpeg" alt="Road to Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/x4YvWNv.jpeg" alt="Road to Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/ss4yJTW.jpeg" alt="PRoad to Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/eCNw3WE.jpeg" alt="Road to Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/FsrsDbh.jpeg" alt="Road to Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/1LJMKum.jpeg" alt="Road to Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/zR1ki9x.jpeg" alt="Road to Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/AaDwWTJ.jpeg" alt="Road to Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/onTBSVL.jpeg" alt="Rental car to Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/zk2NjH5.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/nS5DUQM.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/2t7t4mw.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/L0r0XGB.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/qNdILi7.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/8Sbb4Fd.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/G14oRy8.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/izGpkXd.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/SZ3XcZv.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/4u4x7NR.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/N8f5BVE.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/KuUe619.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/gLKTYJM.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/utQ0iTN.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/3LzdsSM.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+         <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/ommwHoi.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+         <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/zOiJEDl.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+         <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/dqNaPQG.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+         <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/3MK0By4.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+         <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/65YO2wD.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+         <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/w3cumTK.jpeg" alt="Navajo hogan, Monument Valley">
+        </div>
+        <!-- ------------- -->
+         <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/UYifHbW.jpeg" alt="Navajo hoban, Monument Valley">
+        </div>
+        <!-- ------------- -->
+         <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/QZXkKyy.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/PkS5Bwf.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/JVKX137.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/R5lPcV5.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/lZfPX9G.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/CHlxIpm.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/TWWb8yF.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/tr7x32H.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/MqFefPD.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/KIRGIYU.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/VDRSl2Y.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/TSJUfPg.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/o6auUse.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/HI7oi64.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/4IkQ4rD.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/mygmAkE.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/nO1bjZX.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/hHB3w6g.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/eGUPXVN.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/3lDWRSt.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/a84zybO.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/n47u0He.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+          <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/nQQQ6Tr.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+           <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/NRx0HzK.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+           <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/QWG9Wzy.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+           <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/iP7jgmQ.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+           <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/wuiJCOh.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+           <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/gg9Qw3w.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+           <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/3hO9hbd.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+           <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/k9PxsPS.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+           <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/7yFYmWS.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+                      <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/QZXkKyy.jpeg" alt="xx">
+        </div>
+        <!-- ------------- -->
+             <!--         IMGUR VIDEO HERE -->
+        <div class="carousel-image">
+          <!--        IMGUR SHARE OPTION: USE BBCode (Forums) -->
+          <div class="video-portrait">
+            <video width="70%" controls autoplay>
+
+              <source src="https://i.imgur.com/PS1h4tn.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/MwJSNo1.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/LMYUb33.jpeg" alt="Monument Valley">
+        </div>
+        <!-- ------------- -->
+  
+        <div class="carousel-image">
+          <img class="image" src="https://i.imgur.com/vXdYhtJ.jpeg" alt="Monument Valley">
+        </div>
+        <!--       </div> -->
+        <!-- ------------- -->
+       
+
+        <!--                     to have space between carousel and arrows -->
+        <br>
+        <!-- Next and previous buttons -->
+        <div class="transition-arrow">
+          <div class="arrows">
+            <a class="prev-image" onclick="plusSlideImage(-1)">&#10094;</a>
+            <br>
+            <a class="next-image" onclick="plusSlideImage(1)">&#10095;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--         END CAROUSEL -->
+  </main>
+</body>
+
+</html>
